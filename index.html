@@ -1,0 +1,64 @@
+<html>
+<head>
+  <title>Realtime Drawing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+      .heading{
+    font-size: 23px;
+    width: 90%;
+    margin: 0px;
+    box-shadow: 6px 6px 6px grey;
+}
+.note{
+    font-size: 15px;
+    color: black;
+}
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px red;
+}
+body{
+    background-image: url('good.jpg');
+}
+  </style>
+</head>
+
+<body>
+<center>
+  <h3 class="btn btn-warning heading">Font Manipulator
+    <br>
+    <span class="note">NOTE - Get your left and right wrist closer 
+      to reduce the font size  <br>and to increase the font size of 
+       keep your left and right wrist far from each other. <br>
+       Font size of the square will be =
+      </span>
+    <br>
+    <span id="square|side"></span>
+  </h3>
+</center>
+<div class="copy_right_footer">
+  Developed by MØhammad Yusuf Beg 
+</div>
+<script src="main.js"></script>
+</body>
+</html>
+
+
